@@ -1,10 +1,10 @@
 config_version: 1.0 # Required. Only 1.0 available
-project_id: c776c33e-f428-4c91-87e1-a6a18c1554fe # Required. Your project ID from: https://app.localizely.com/projects
+project_id: 600eeeb4-bb0e-434f-b248-83d1ef53dcd0 # Required. Your project ID from: https://app.localizely.com/projects
 file_type: flutter_arb # Required. Available values : android_xml, ios_strings, ios_stringsdict, java_properties, rails_yaml, angular_xlf, flutter_arb, dotnet_resx, po, pot, json, csv, xlsx
-branch: main # Optional. Your branch in Localizely project to sync files with.
+branch: localizely # Optional. Your branch in Localizely project to sync files with.
 upload: # Required.
   files: # Required. List of files for upload to Localizely. Usually, it is just one file used for the main locale
-    - file: lib/l10n/intl_en.arb # Required. Path to the translation file
+    - file: lib/l10n/app_en.arb # Required. Path to the translation file
       locale_code: en # Required. Locale code for the file. Examples: en, de-DE, zh-Hans-CN
   params: # Optional.
     overwrite: true # Optional, default: false. If the translation in a given language should be overwritten with modified translation from uploading file.
@@ -17,9 +17,9 @@ upload: # Required.
       - updated
 download: # Required.
   files: # Required. List of files for download from Localizely.
-    - file: lib/l10n/intl_en.arb # Required. Path to the translation file
+    - file: lib/l10n/app_en.arb # Required. Path to the translation file
       locale_code: en # Required. Locale code for the file. Examples: en, de-DE, zh-Hans-CN
-    - file: lib/l10n/intl_de.arb # Required. Path to the translation file
+    - file: lib/l10n/app_de.arb # Required. Path to the translation file
       locale_code: de # Required. Locale code for the file. Examples: en, de-DE, zh-Hans-CN
   params:
     export_empty_as: empty # Optional, default: empty. How you would like empty translations to be exported. Allowed values are `empty` to keep empty, `main` to replace with the main language value, or `skip` to omit.
