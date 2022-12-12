@@ -1,718 +1,554 @@
 {
   "@@locale": "en",
-  "@@last_modified": "2022-11-17T17:31:16.074",
-  "helloWorld": "Hello World!",
-  "enterASearchTerm": "Enter a search term...",
-  "securityCheckDescription": "Keep the security of your computer in track.",
-  "warpinatorDescription": "Send files quickly over the local network. To Linux, Android, iOS and Windows.",
-  "securityCheck": "Security Check",
-  "afterInstallation": "After Installation",
-  "afterInstallationDescription": "Set up your linux machine to your needs.",
-  "openX": "Open",
-  "searchInWebFor": "Search in web for",
-  "lookForOnlineResults": "Look for online results..",
-  "sendFeedback": "Send Feedback",
-  "clear": "Clear",
-  "loading": "Loading...",
-  "preparingSearch": "Preparing search...",
-  "analysingSystemSecurity": "Analysing System Security ...",
-  "additionalSoftwareSources": "Additional Software Sources",
-  "securityCheckFailedBecauseNoRoot": "That didn't work. You need root rights to run the security check.",
-  "cancel": "Cancel",
-  "retry": "Retry",
-  "backToSearch": "Back to search",
-  "reload": "Reload",
-  "analyzingSystemScurity": "Analysing system security...",
-  "updates": "Updates",
-  "systemIsUpToDate": "Great! Your system is up to date.",
-  "xPackagesShouldBeUpdated": "packages should be updated.",
-  "homeFolder": "Home folder",
-  "homeFolderRightsOkay": "Your home folder rights are okay. Other users can't see your files.",
-  "homeFolderRightsNotOkay": "Your home folder is not secure. Other users could see your files.",
-  "networkSecurity": "Network security",
-  "noFirewallRecognized": "No firewall recognized on your system.\\nA firewall is recommended for computers with access from the internet.",
-  "firewallIsRunning": "Your firewall is up and running. Great job!",
-  "password": "Password",
-  "firewallIsInactive": "Your firewall is inactive. A firewall is recommended for computers with access from the internet.",
-  "sshFoundOnYourComputer": "SSH server found on your computer. Your computer could be accessible from the outside. Uninstall ssh-server if you don't need it.",
-  "noFail2BanFound": "No fail2ban instance found on your computer. With it your computer is more imune to ssh brute force attacks.",
-  "xrdpRunningOnYourComputer": "Xrdp is running at your computer. It's recommended to uninstall if you don't really need it.",
-  "additionalSoftwareSourcesDetected": "Some additional software sources where found. These are potentially unsafe.\\nIf you don't need security updates from these it is recommended to deactivate them.",
-  "noAdditionalSoftwareSourcesFound": "Good! No additional software sources found.",
-  "changePasswordDescription": "Change password of current user",
-  "userProfile": "User Profile",
-  "changeUserProfile": "Change userdetails",
-  "systemInformation": "System information",
-  "distribution": "Distribution",
-  "version": "Version",
-  "desktop": "Desktop",
-  "language": "Language",
-  "next": "Next",
-  "selectYourDistribution": "Select your distribution",
-  "selectYourDesktop": "Select your desktop",
-  "isTheRecognizedSystemCorrect": "Is your recognized system correct?",
-  "noIWantToChange": "No, I wan't to change",
-  "yes": "Yes",
-  "recognizingSystem": "Recognizing system...",
-  "yourLinuxAssistant": "Your. Linux. Assistant.",
-  "linuxAssistantLongDescription": "Linux Assistant is distribution indenpendent and designed to help and guide you through your daily usage. Just enter some keywords into the search field and find whatever you desire! Linux Assistant comes with useful shotcuts to files, folders and applications and also has some routines. Links to settings and e.g. the included PC-Security checker are also available.",
-  "welcomeToYourLinuxMachine": "Welcome to your new linux machine!",
-  "afterInstallationGreetingDescription": "In the next minutes you will configure your linux machine to your needs.",
-  "letsStart": "Let's start!",
-  "includeBasicSystemInformation": "Include basic system information",
-  "setUpXWithRecommendedSettings": "Setup",
-  "setUpXWithRecommendedSettingsPart2": "with recommended settings?",
-  "manualConfiguration": "Manual Configuration",
-  "afterInstallationManualConfigurationDescription": "Exit this routine and keep the full control of every change on your pc.",
-  "automaticConfiguration": "Automatic Configuration",
-  "applyConfiguration": "Apply software configuration",
-  "thisProcessCouldTakeManyMinutesDependingSoftwareChoosed": "This process could take many minutes depending on what software configuration you selected...",
-  "selectSpecificActionsOnTheNextSite": "Select the specific automatic actions on the next page.",
-  "installMultimediaCodecs": "Install Multimedia Codecs",
-  "installMultimediaCodecsDescription": "Install additional proprietary multimedia codes for playing videos and music.",
-  "automaticSnapshots": "Automatic Snapshots",
-  "automaticSnapshotsDescription": "Configure automatic snapshots with timeshift. Timeshift will be configured to 2 monthly automatic snapshots on your root partition. It will not backup your personal files.",
-  "automaticNvidiaDriverInstallation": "Automatic Nividia-Driver installation",
-  "automaticNvidiaDriverInstallationDesciption": "All recommended drivers will be installed.",
-  "automaticUpdateManagerConfiguration": "Automatic Update Manager Configuration",
-  "feedbackPlaceholder": "Are you missing a search result? For what are you searching? Do you have suggestions for improvement?...",
-  "automaticUpdateManagerConfigurationDescription": "Automatic updates and (if included) maintainance will be configured.",
-  "welcomeToYourNewSystem": "Welcome to your new system!",
-  "automaticConfigurationIsRunningDescription": "Your system is setting up and applying your software configuration. This process could take many minutes depending on what actions and software you selected...",
-  "browserSelection": "Browser Selection",
-  "firefoxDescription": "Open Source browser with focus on privacy by Mozilla.",
-  "chromiumDescription": "Open Source browser. Free base of Google Chrome.",
-  "braveDescription": "Open Source browser with focus on privacy.",
-  "chromeDescription": "Proprietary browser from Google.",
-  "thunderbirdDescription": "Open Source E-Mail Client from Mozilla.",
-  "jitsiDescription": "Open Source video conference tool.",
-  "elementDescription": "Open Source messaging tool based on matrix protocol.",
-  "discordDescription": "Proprietary community chat software",
-  "zoomDescription": "Proprietary conference software.",
-  "teamsDescription": "Proprietary team communication software.",
-  "communicationSoftware": "Communication Software",
-  "flatpakIsNotInstalled": "Flatpak isn't installed on your system.",
-  "flatpakDescription": "For easy access to many popular apps Flatpak is highly recommended. Flatpak is a new utility for packet management for Linux. It is offering a sandbox environment in which apps can run in isolation of the rest of the system. By binding the 'Flathub' (biggest repository for flatpaks) you get access to over 1800 different Linux apps. As a downside Flatpaks require more diskpace.",
-  "skip": "Skip",
-  "settingUpFlatpak": "Setting up fatpak",
-  "officeSelection": "Office Selection",
-  "libreOfficeDescription": "Open Source Office Suite from The Document Foundation. Great for the Open Document Format (.odt, .ods, .odp).",
-  "onlyOfficeDescription": "Open Source Office Suite. Good for the Microsoft Document Format (.docx, .xls, .ppt).",
-  "wpsOfficeDescription": "Proprietary Office Suite. Good for the Microsoft Document Format (.docx, .xls, .ppt).",
-  "includeSearchTermAndResults": "Include search term and search results",
-  "submit": "Submit",
-  "thankYouForTheFeedback": "Thank you very much for your feedback!",
-  "feedbackSentSuccessfully": "Your feedback was sent to the developers successfully.",
-  "close": "Close",
-  "sendingFeedbackFailed": "Sending feedback failed.",
-  "sendingFeedback": "Sending feedback...",
-  "startAfterInstallationRoutine": "Start initial setup of computer",
-  "timeToSetupYourComputer": "Time to setup your computer",
-  "timeToSetupYourComputerDescription": "Configure your linux machine to your needs.",
   "activateHotkey": "Activate hotkey",
-  "openLinuxAssistantFaster": "Open Linux Assistant faster.",
-  "openLinuxAssistantFasterDescription": "You could open Linux Assistant with the keys <Super> + <Q>.\nThis is higly recommended to maximize your productivity under linux.",
-  "yesSetUpHotkey": "Yes, setup hotkey",
-  "introduction": "Introduction",
-  "theFollowingContentCanBeSearched": "You can search for following content:",
-  "applications": "Applications",
-  "applicationSearchDescription": "Search for all your favorite applications and start them in einem Bruchteil einer Sekunde.",
-  "folders": "Folders",
-  "folderSearchDescription": "Linux Assistant scanns all your important folders and offers them you also in your result list.",
-  "recentFiles": "Recent files",
-  "recentFilesDescription": "As long your system stores recently used files, you can find these and also your starred files.",
-  "browserBookmarks": "Bookmarks of your webbrowser",
-  "browserBookmarksDescription": "Find your favorite sites if you marked them as bookmark in your webbrowser.",
-  "specialFunctions": "Special functions by Linux-Assistant",
-  "specialFunctionsDescription": "Start the security check or the after installation service and also many other small routines which make your daily linux use easier. These are presented under the search bar in radomized order.",
-  "hint": "Hint",
-  "youCanOpenThisWindowBySearchingForIntroduction": "You can reopen this site by searching for 'Introduction to Linux-Assistant'.",
-  "youCanOpenLinuxAssistantWithHotkey": "You can always open Linux Assistant with the key combination <Super> + <Q>. If this does not work yet, call 'keyboard shortcut' in the search.",
-  "introductionToLinuxAssistant": "Introduction to Linux-Assistant",
-  "introductionToLinuxAssistantDescription": "Presentation of of all possibilites and search entries of Linux-Assistant.",
-  "changeBackground": "Change background",
+  "@activateHotkey": {},
+  "additionalSoftwareSources": "Additional Software Sources",
+  "@additionalSoftwareSources": {
+    "type": "text"
+  },
+  "additionalSoftwareSourcesDetected": "Some additional software sources where found. These are potentially unsafe.\\nIf you don't need security updates from these it is recommended to deactivate them.",
+  "@additionalSoftwareSourcesDetected": {
+    "type": "text"
+  },
+  "afterInstallation": "After Installation",
+  "@afterInstallation": {
+    "type": "text"
+  },
+  "afterInstallationDescription": "Set up your linux machine to your needs.",
+  "@afterInstallationDescription": {
+    "type": "text"
+  },
+  "afterInstallationGreetingDescription": "In the next minutes you will configure your linux machine to your needs.",
+  "@afterInstallationGreetingDescription": {
+    "type": "text"
+  },
+  "afterInstallationManualConfigurationDescription": "Exit this routine and keep the full control of every change on your pc.",
+  "@afterInstallationManualConfigurationDescription": {
+    "type": "text"
+  },
   "analysingLinuxHealth": "Analysing linux health...",
-  "linuxHealth": "Linux health",
-  "linuxHealthDescription": "Check the current status of your linux system.",
-  "uptimeWarning": "Your Linux system has not been rebooted for a long time. To avoid potential errors, regular reboots are recommended. The last reboot was {time} {unit} ago.",
-  "@uptimeWarning": {
+  "@analysingLinuxHealth": {},
+  "analysingSystemSecurity": "Analysing System Security ...",
+  "@analysingSystemSecurity": {
+    "type": "text"
+  },
+  "analyzingSystemScurity": "Analysing system security...",
+  "@analyzingSystemScurity": {
+    "type": "text"
+  },
+  "applications": "Applications",
+  "@applications": {},
+  "applicationSearchDescription": "Search for all your favorite applications and start them in einem Bruchteil einer Sekunde.",
+  "@applicationSearchDescription": {},
+  "applyConfiguration": "Apply software configuration",
+  "@applyConfiguration": {
+    "type": "text"
+  },
+  "applyUpdatesSinceRelease": "Update the system to the latest version",
+  "@applyUpdatesSinceRelease": {},
+  "applyUpdatesSinceReleaseDescription": "Since the release of the current {distro} version, updates may be available. Apply these updates.",
+  "@applyUpdatesSinceReleaseDescription": {
+    "type": "text",
     "placeholders": {
-      "time" : {},
-      "unit" : {}
-    },
-    "description": "",
+      "distro": {}
+    }
+  },
+  "automaticConfiguration": "Automatic Configuration",
+  "@automaticConfiguration": {
+    "type": "text"
+  },
+  "automaticConfigurationIsRunningDescription": "Your system is setting up and applying your software configuration. This process could take many minutes depending on what actions and software you selected...",
+  "@automaticConfigurationIsRunningDescription": {
+    "type": "text"
+  },
+  "automaticNvidiaDriverInstallation": "Automatic Nividia-Driver installation",
+  "@automaticNvidiaDriverInstallation": {
+    "type": "text"
+  },
+  "automaticNvidiaDriverInstallationDesciption": "All recommended drivers will be installed.",
+  "@automaticNvidiaDriverInstallationDesciption": {
+    "type": "text"
+  },
+  "automaticSnapshots": "Automatic Snapshots",
+  "@automaticSnapshots": {
+    "type": "text"
+  },
+  "automaticSnapshotsDescription": "Configure automatic snapshots with timeshift. Timeshift will be configured to 2 monthly automatic snapshots on your root partition. It will not backup your personal files.",
+  "@automaticSnapshotsDescription": {
+    "type": "text"
+  },
+  "automaticUpdateManagerConfiguration": "Automatic Update Manager Configuration",
+  "@automaticUpdateManagerConfiguration": {
+    "type": "text"
+  },
+  "automaticUpdateManagerConfigurationDescription": "Automatic updates and (if included) maintainance will be configured.",
+  "@automaticUpdateManagerConfigurationDescription": {
+    "type": "text"
+  },
+  "backToSearch": "Back to search",
+  "@backToSearch": {
+    "type": "text"
+  },
+  "braveDescription": "Open Source browser with focus on privacy.",
+  "@braveDescription": {},
+  "browserBookmarks": "Bookmarks of your webbrowser",
+  "@browserBookmarks": {},
+  "browserBookmarksDescription": "Find your favorite sites if you marked them as bookmark in your webbrowser.",
+  "@browserBookmarksDescription": {},
+  "browserSelection": "Browser Selection",
+  "@browserSelection": {
+    "type": "text"
+  },
+  "cancel": "Cancel",
+  "@cancel": {
+    "type": "text"
+  },
+  "changeBackground": "Change background",
+  "@changeBackground": {},
+  "changePasswordDescription": "Change password of current user",
+  "@changePasswordDescription": {
+    "type": "text"
+  },
+  "changeUserProfile": "Change userdetails",
+  "@changeUserProfile": {
+    "type": "text"
+  },
+  "chromeDescription": "Proprietary browser from Google.",
+  "@chromeDescription": {
+    "type": "text"
+  },
+  "chromiumDescription": "Open Source browser. Free base of Google Chrome.",
+  "@chromiumDescription": {
+    "type": "text"
+  },
+  "clear": "Clear",
+  "@clear": {
+    "type": "text"
+  },
+  "close": "Close",
+  "@close": {
+    "type": "text"
+  },
+  "communicationSoftware": "Communication Software",
+  "@communicationSoftware": {
+    "type": "text"
+  },
+  "cpuUsage": "CPU usage",
+  "@cpuUsage": {},
+  "desktop": "Desktop",
+  "@desktop": {
+    "type": "text"
+  },
+  "discordDescription": "Proprietary community chat software",
+  "@discordDescription": {
+    "type": "text"
+  },
+  "diskspacePass": "Your partitions are not overfilled. This results in better performance. Very good!",
+  "@diskspacePass": {},
+  "diskspaceWarning1": "Your partition '",
+  "@diskspaceWarning1": {},
+  "diskspaceWarning2": "' is very full! Try to free up some memory. Remaining available memory: ",
+  "@diskspaceWarning2": {},
+  "distribution": "Distribution",
+  "@distribution": {
+    "type": "text"
+  },
+  "elementDescription": "Open Source messaging tool based on matrix protocol.",
+  "@elementDescription": {
+    "type": "text"
+  },
+  "enterASearchTerm": "Enter a search term...",
+  "@enterASearchTerm": {
+    "type": "text"
+  },
+  "feedbackPlaceholder": "Are you missing a search result? For what are you searching? Do you have suggestions for improvement?...",
+  "@feedbackPlaceholder": {
+    "type": "text"
+  },
+  "feedbackSentSuccessfully": "Your feedback was sent to the developers successfully.",
+  "@feedbackSentSuccessfully": {
+    "type": "text"
+  },
+  "firefoxDescription": "Open Source browser with focus on privacy by Mozilla.",
+  "@firefoxDescription": {
+    "type": "text"
+  },
+  "firewallIsInactive": "Your firewall is inactive. A firewall is recommended for computers with access from the internet.",
+  "@firewallIsInactive": {
+    "type": "text"
+  },
+  "firewallIsRunning": "Your firewall is up and running. Great job!",
+  "@firewallIsRunning": {
+    "type": "text"
+  },
+  "flatpakDescription": "For easy access to many popular apps Flatpak is highly recommended. Flatpak is a new utility for packet management for Linux. It is offering a sandbox environment in which apps can run in isolation of the rest of the system. By binding the 'Flathub' (biggest repository for flatpaks) you get access to over 1800 different Linux apps. As a downside Flatpaks require more diskpace.",
+  "@flatpakDescription": {
+    "type": "text"
+  },
+  "flatpakIsNotInstalled": "Flatpak isn't installed on your system.",
+  "@flatpakIsNotInstalled": {
+    "type": "text"
+  },
+  "folders": "Folders",
+  "@folders": {},
+  "folderSearchDescription": "Linux Assistant scanns all your important folders and offers them you also in your result list.",
+  "@folderSearchDescription": {},
+  "helloWorld": "Hello World!",
+  "@helloWorld": {
+    "type": "text",
+    "description": "The conventional newborn programmer greeting"
+  },
+  "hint": "Hint",
+  "@hint": {},
+  "homeFolder": "Home folder",
+  "@homeFolder": {
+    "type": "text"
+  },
+  "homeFolderRightsNotOkay": "Your home folder is not secure. Other users could see your files.",
+  "@homeFolderRightsNotOkay": {
+    "type": "text"
+  },
+  "homeFolderRightsOkay": "Your home folder rights are okay. Other users can't see your files.",
+  "@homeFolderRightsOkay": {
+    "type": "text"
+  },
+  "hours": "hours",
+  "@hours": {},
+  "includeBasicSystemInformation": "Include basic system information",
+  "@includeBasicSystemInformation": {
+    "type": "text"
+  },
+  "includeSearchTermAndResults": "Include search term and search results",
+  "@includeSearchTermAndResults": {
+    "type": "text"
+  },
+  "installMultimediaCodecs": "Install Multimedia Codecs",
+  "@installMultimediaCodecs": {
+    "type": "text"
+  },
+  "installMultimediaCodecsDescription": "Install additional proprietary multimedia codes for playing videos and music.",
+  "@installMultimediaCodecsDescription": {
+    "type": "text"
+  },
+  "introduction": "Introduction",
+  "@introduction": {},
+  "introductionToLinuxAssistant": "Introduction to Linux-Assistant",
+  "@introductionToLinuxAssistant": {},
+  "introductionToLinuxAssistantDescription": "Presentation of of all possibilites and search entries of Linux-Assistant.",
+  "@introductionToLinuxAssistantDescription": {},
+  "isTheRecognizedSystemCorrect": "Is your recognized system correct?",
+  "@isTheRecognizedSystemCorrect": {
+    "type": "text"
+  },
+  "jitsiDescription": "Open Source video conference tool.",
+  "@jitsiDescription": {
+    "type": "text"
+  },
+  "language": "Language",
+  "@language": {
+    "type": "text"
+  },
+  "letsStart": "Let's start!",
+  "@letsStart": {
+    "type": "text"
+  },
+  "libreOfficeDescription": "Open Source Office Suite from The Document Foundation. Great for the Open Document Format (.odt, .ods, .odp).",
+  "@libreOfficeDescription": {
+    "type": "text"
+  },
+  "linuxAssistantKeyboardShortcut": "Linux Assistant keyboard shortcut",
+  "@linuxAssistantKeyboardShortcut": {},
+  "linuxAssistantLongDescription": "Linux Assistant is distribution indenpendent and designed to help and guide you through your daily usage. Just enter some keywords into the search field and find whatever you desire! Linux Assistant comes with useful shotcuts to files, folders and applications and also has some routines. Links to settings and e.g. the included PC-Security checker are also available.",
+  "@linuxAssistantLongDescription": {
+    "type": "text",
+    "description": "description at start screen"
+  },
+  "linuxHealth": "Linux health",
+  "@linuxHealth": {},
+  "linuxHealthDescription": "Check the current status of your linux system.",
+  "@linuxHealthDescription": {},
+  "loading": "Loading...",
+  "@loading": {
+    "type": "text"
+  },
+  "lookForOnlineResults": "Look for online results..",
+  "@lookForOnlineResults": {
+    "type": "text"
+  },
+  "manualConfiguration": "Manual Configuration",
+  "@manualConfiguration": {
+    "type": "text"
+  },
+  "memoryAndStorage": "Memory and storage",
+  "@memoryAndStorage": {},
+  "memoryUsage": "RAM usage",
+  "@memoryUsage": {},
+  "minutes": "minutes",
+  "@minutes": {},
+  "networkSecurity": "Network security",
+  "@networkSecurity": {
+    "type": "text"
+  },
+  "next": "Next",
+  "@next": {
+    "type": "text"
+  },
+  "noAdditionalSoftwareSourcesFound": "Good! No additional software sources found.",
+  "@noAdditionalSoftwareSourcesFound": {
+    "type": "text"
+  },
+  "noFail2BanFound": "No fail2ban instance found on your computer. With it your computer is more imune to ssh brute force attacks.",
+  "@noFail2BanFound": {
+    "type": "text"
+  },
+  "noFirewallRecognized": "No firewall recognized on your system.\\nA firewall is recommended for computers with access from the internet.",
+  "@noFirewallRecognized": {
+    "type": "text"
+  },
+  "noIWantToChange": "No, I wan't to change",
+  "@noIWantToChange": {
+    "type": "text"
+  },
+  "officeSelection": "Office Selection",
+  "@officeSelection": {
+    "type": "text"
+  },
+  "onlyOfficeDescription": "Open Source Office Suite. Good for the Microsoft Document Format (.docx, .xls, .ppt).",
+  "@onlyOfficeDescription": {
+    "type": "text"
+  },
+  "openLinuxAssistantFaster": "Open Linux Assistant faster.",
+  "@openLinuxAssistantFaster": {},
+  "openLinuxAssistantFasterDescription": "You could open Linux Assistant with the keys <Super> + <Q>.\nThis is higly recommended to maximize your productivity under linux.",
+  "@openLinuxAssistantFasterDescription": {},
+  "openX": "Open",
+  "@openX": {
+    "type": "text",
+    "description": "open folder/ open file/, ..."
+  },
+  "password": "Password",
+  "@password": {
+    "type": "text"
+  },
+  "preparingSearch": "Preparing search...",
+  "@preparingSearch": {
+    "type": "text"
+  },
+  "process": "Process",
+  "@process": {},
+  "processesWithZombiesMessage": "Currently {processes} processes are running. Of these {zombies} zombies where found.",
+  "@processesWithZombiesMessage": {
+    "type": "text",
+    "placeholders": {
+      "processes": {},
+      "zombies": {}
+    }
+  },
+  "recentFiles": "Recent files",
+  "@recentFiles": {},
+  "recentFilesDescription": "As long your system stores recently used files, you can find these and also your starred files.",
+  "@recentFilesDescription": {},
+  "recognizingSystem": "Recognizing system...",
+  "@recognizingSystem": {
+    "type": "text"
+  },
+  "reload": "Reload",
+  "@reload": {
+    "type": "text"
+  },
+  "removableDevicesPass": "No removable storage devices were detected.",
+  "@removableDevicesPass": {},
+  "removableDevicesWarning": "{removableDevices} removable storage devices/(partitions) were found. If you do not currently need them, it is recommended to remove them due to security reasons and the health of these devices.",
+  "@removableDevicesWarning": {
+    "type": "text",
+    "placeholders": {
+      "removableDevices": {}
+    }
+  },
+  "retry": "Retry",
+  "@retry": {
+    "type": "text"
+  },
+  "runtime": "Runtime",
+  "@runtime": {},
+  "searchInWebFor": "Search in web for",
+  "@searchInWebFor": {
+    "type": "text"
+  },
+  "securityCheck": "Security Check",
+  "@securityCheck": {
+    "type": "text"
+  },
+  "securityCheckDescription": "Keep the security of your computer in track.",
+  "@securityCheckDescription": {
+    "type": "text"
+  },
+  "securityCheckFailedBecauseNoRoot": "That didn't work. You need root rights to run the security check.",
+  "@securityCheckFailedBecauseNoRoot": {
+    "type": "text"
+  },
+  "selectSpecificActionsOnTheNextSite": "Select the specific automatic actions on the next page.",
+  "@selectSpecificActionsOnTheNextSite": {
+    "type": "text"
+  },
+  "selectYourDesktop": "Select your desktop",
+  "@selectYourDesktop": {
+    "type": "text"
+  },
+  "selectYourDistribution": "Select your distribution",
+  "@selectYourDistribution": {
+    "type": "text"
+  },
+  "sendFeedback": "Send Feedback",
+  "@sendFeedback": {
+    "type": "text"
+  },
+  "sendingFeedback": "Sending feedback...",
+  "@sendingFeedback": {
+    "type": "text"
+  },
+  "sendingFeedbackFailed": "Sending feedback failed.",
+  "@sendingFeedbackFailed": {
+    "type": "text"
+  },
+  "settingUpFlatpak": "Setting up fatpak",
+  "@settingUpFlatpak": {
+    "type": "text"
+  },
+  "setUpLinuxAssistantKeyboardShortcut": "Set up the keyboard combination <Super> + <Q> to quickly open Linux Assistant from anywhere.",
+  "@setUpLinuxAssistantKeyboardShortcut": {},
+  "setUpXWithRecommendedSettings": "Setup",
+  "@setUpXWithRecommendedSettings": {
+    "type": "text"
+  },
+  "setUpXWithRecommendedSettingsPart2": "with recommended settings?",
+  "@setUpXWithRecommendedSettingsPart2": {
+    "type": "text"
+  },
+  "skip": "Skip",
+  "@skip": {
+    "type": "text"
+  },
+  "specialFunctions": "Special functions by Linux-Assistant",
+  "@specialFunctions": {},
+  "specialFunctionsDescription": "Start the security check or the after installation service and also many other small routines which make your daily linux use easier. These are presented under the search bar in radomized order.",
+  "@specialFunctionsDescription": {},
+  "sshFoundOnYourComputer": "SSH server found on your computer. Your computer could be accessible from the outside. Uninstall ssh-server if you don't need it.",
+  "@sshFoundOnYourComputer": {
+    "type": "text"
+  },
+  "startAfterInstallationRoutine": "Start initial setup of computer",
+  "@startAfterInstallationRoutine": {},
+  "submit": "Submit",
+  "@submit": {
+    "type": "text"
+  },
+  "swapsPass": "Your system uses swap space. You do not need to do anything in this regard.",
+  "@swapsPass": {},
+  "swapsWarning": "Your system doesn't have swap memory. If your memory is full, your system has no further possibility to swap it. Add either a swap file or a swap partition to your system.",
+  "@swapsWarning": {},
+  "systemInformation": "System information",
+  "@systemInformation": {
+    "type": "text"
+  },
+  "systemIsUpToDate": "Great! Your system is up to date.",
+  "@systemIsUpToDate": {
+    "type": "text"
+  },
+  "teamsDescription": "Proprietary team communication software.",
+  "@teamsDescription": {
+    "type": "text"
+  },
+  "thankYouForTheFeedback": "Thank you very much for your feedback!",
+  "@thankYouForTheFeedback": {
+    "type": "text"
+  },
+  "theFollowingContentCanBeSearched": "You can search for following content:",
+  "@theFollowingContentCanBeSearched": {},
+  "thisProcessCouldTakeManyMinutesDependingSoftwareChoosed": "This process could take many minutes depending on what software configuration you selected...",
+  "@thisProcessCouldTakeManyMinutesDependingSoftwareChoosed": {
+    "type": "text"
+  },
+  "thunderbirdDescription": "Open Source E-Mail Client from Mozilla.",
+  "@thunderbirdDescription": {
+    "type": "text"
+  },
+  "timeToSetupYourComputer": "Time to setup your computer",
+  "@timeToSetupYourComputer": {},
+  "timeToSetupYourComputerDescription": "Configure your linux machine to your needs.",
+  "@timeToSetupYourComputerDescription": {},
+  "topCPUProcesses": "Currently most computationally intensive processes",
+  "@topCPUProcesses": {},
+  "topMemoryProcesses": "Currently most memory-intensive processes",
+  "@topMemoryProcesses": {},
+  "updates": "Updates",
+  "@updates": {
     "type": "text"
   },
   "uptimePass": "Your Linux system has only been running for {time} {unit}. That's good!",
   "@uptimePass": {
+    "type": "text",
     "placeholders": {
-      "time" : {},
-      "unit" : {}
-    },
-    "description": "",
-    "type": "text"
+      "time": {},
+      "unit": {}
+    }
   },
-  "diskspaceWarning1": "Your partition '",
-  "diskspaceWarning2": "' is very full! Try to free up some memory. Remaining available memory: ",
-  "diskspacePass": "Your partitions are not overfilled. This results in better performance. Very good!",
-  "processesWithZombiesMessage": "Currently {processes} processes are running. Of these {zombies} zombies where found.",
-  "@processesWithZombiesMessage": {
+  "uptimeWarning": "Your Linux system has not been rebooted for a long time. To avoid potential errors, regular reboots are recommended. The last reboot was {time} {unit} ago.",
+  "@uptimeWarning": {
+    "type": "text",
     "placeholders": {
-      "processes" : {},
-      "zombies" : {}
-    },
-    "description": "",
-    "type": "text"
+      "time": {},
+      "unit": {}
+    }
   },
-  "removableDevicesWarning": "{removableDevices} removable storage devices/(partitions) were found. If you do not currently need them, it is recommended to remove them due to security reasons and the health of these devices.",
-  "@removableDevicesWarning": {
-    "placeholders": {
-      "removableDevices" : {}
-    },
-    "description": "",
-    "type": "text"
-  },
-  "removableDevicesPass": "No removable storage devices were detected.",
-  "swapsPass": "Your system uses swap space. You do not need to do anything in this regard.",
-  "swapsWarning": "Your system doesn't have swap memory. If your memory is full, your system has no further possibility to swap it. Add either a swap file or a swap partition to your system.",
-  "topMemoryProcesses": "Currently most memory-intensive processes",
-  "topCPUProcesses": "Currently most computationally intensive processes",
-  "cpuUsage": "CPU usage",
-  "memoryUsage": "RAM usage",
-  "process": "Process",
-  "runtime": "Runtime",
-  "memoryAndStorage": "Memory and storage",
-  "applyUpdatesSinceRelease": "Update the system to the latest version",
-  "applyUpdatesSinceReleaseDescription": "Since the release of the current {distro} version, updates may be available. Apply these updates.",
-  "@applyUpdatesSinceReleaseDescription": {
-    "placeholders": {
-      "distro" : {}
-    },
-    "description": "",
-    "type": "text"
-  },
-  "minutes": "minutes",
-  "hours": "hours",
-  "linuxAssistantKeyboardShortcut": "Linux Assistant keyboard shortcut",
-  "setUpLinuxAssistantKeyboardShortcut": "Set up the keyboard combination <Super> + <Q> to quickly open Linux Assistant from anywhere.",
-  "@helloWorld": {
-    "placeholders": {},
-    "description": "The conventional newborn programmer greeting",
-    "type": "text"
-  },
-  "@enterASearchTerm": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@securityCheckDescription": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@warpinatorDescription": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@securityCheck": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@afterInstallation": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@afterInstallationDescription": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@openX": {
-    "placeholders": {},
-    "description": "open folder/ open file/, ...",
-    "type": "text"
-  },
-  "@searchInWebFor": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@lookForOnlineResults": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@sendFeedback": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@clear": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@loading": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@preparingSearch": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@analysingSystemSecurity": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@additionalSoftwareSources": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@securityCheckFailedBecauseNoRoot": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@cancel": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@retry": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@backToSearch": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@reload": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@analyzingSystemScurity": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@updates": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@systemIsUpToDate": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@xPackagesShouldBeUpdated": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@homeFolder": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@homeFolderRightsOkay": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@homeFolderRightsNotOkay": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@networkSecurity": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@noFirewallRecognized": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@firewallIsRunning": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@password": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@firewallIsInactive": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@sshFoundOnYourComputer": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@noFail2BanFound": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@xrdpRunningOnYourComputer": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@additionalSoftwareSourcesDetected": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@noAdditionalSoftwareSourcesFound": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@changePasswordDescription": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
+  "userProfile": "User Profile",
   "@userProfile": {
-    "placeholders": {},
-    "description": "",
     "type": "text"
   },
-  "@changeUserProfile": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@systemInformation": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@distribution": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
+  "version": "Version",
   "@version": {
-    "placeholders": {},
-    "description": "",
     "type": "text"
   },
-  "@desktop": {
-    "placeholders": {},
-    "description": "",
+  "warpinatorDescription": "Send files quickly over the local network. To Linux, Android, iOS and Windows.",
+  "@warpinatorDescription": {
     "type": "text"
   },
-  "@language": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@next": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@selectYourDistribution": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@selectYourDesktop": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@isTheRecognizedSystemCorrect": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@noIWantToChange": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@yes": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@recognizingSystem": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@yourLinuxAssistant": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@linuxAssistantLongDescription": {
-    "placeholders": {},
-    "description": "description at start screen",
-    "type": "text"
-  },
+  "welcomeToYourLinuxMachine": "Welcome to your new linux machine!",
   "@welcomeToYourLinuxMachine": {
-    "placeholders": {},
-    "description": "",
     "type": "text"
   },
-  "@afterInstallationGreetingDescription": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@letsStart": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@includeBasicSystemInformation": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@setUpXWithRecommendedSettings": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@setUpXWithRecommendedSettingsPart2": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@manualConfiguration": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@afterInstallationManualConfigurationDescription": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@automaticConfiguration": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@applyConfiguration": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@thisProcessCouldTakeManyMinutesDependingSoftwareChoosed": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@selectSpecificActionsOnTheNextSite": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@installMultimediaCodecs": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@installMultimediaCodecsDescription": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@automaticSnapshots": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@automaticSnapshotsDescription": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@automaticNvidiaDriverInstallation": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@automaticNvidiaDriverInstallationDesciption": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@automaticUpdateManagerConfiguration": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@feedbackPlaceholder": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@automaticUpdateManagerConfigurationDescription": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
+  "welcomeToYourNewSystem": "Welcome to your new system!",
   "@welcomeToYourNewSystem": {
-    "placeholders": {},
-    "description": "",
     "type": "text"
   },
-  "@automaticConfigurationIsRunningDescription": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@browserSelection": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@firefoxDescription": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@chromiumDescription": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@chromeDescription": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@thunderbirdDescription": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@jitsiDescription": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@elementDescription": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@discordDescription": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@zoomDescription": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@teamsDescription": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@communicationSoftware": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@flatpakIsNotInstalled": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@flatpakDescription": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@skip": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@settingUpFlatpak": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@officeSelection": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@libreOfficeDescription": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@onlyOfficeDescription": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
+  "wpsOfficeDescription": "Proprietary Office Suite. Good for the Microsoft Document Format (.docx, .xls, .ppt).",
   "@wpsOfficeDescription": {
-    "placeholders": {},
-    "description": "",
     "type": "text"
   },
-  "@includeSearchTermAndResults": {
-    "placeholders": {},
-    "description": "",
+  "xPackagesShouldBeUpdated": "packages should be updated.",
+  "@xPackagesShouldBeUpdated": {
     "type": "text"
   },
-  "@submit": {
-    "placeholders": {},
-    "description": "",
+  "xrdpRunningOnYourComputer": "Xrdp is running at your computer. It's recommended to uninstall if you don't really need it.",
+  "@xrdpRunningOnYourComputer": {
     "type": "text"
   },
-  "@thankYouForTheFeedback": {
-    "placeholders": {},
-    "description": "",
+  "yes": "Yes",
+  "@yes": {
     "type": "text"
   },
-  "@feedbackSentSuccessfully": {
-    "placeholders": {},
-    "description": "",
+  "yesSetUpHotkey": "Yes, setup hotkey",
+  "@yesSetUpHotkey": {},
+  "youCanOpenLinuxAssistantWithHotkey": "You can always open Linux Assistant with the key combination <Super> + <Q>. If this does not work yet, call 'keyboard shortcut' in the search.",
+  "@youCanOpenLinuxAssistantWithHotkey": {},
+  "youCanOpenThisWindowBySearchingForIntroduction": "You can reopen this site by searching for 'Introduction to Linux-Assistant'.",
+  "@youCanOpenThisWindowBySearchingForIntroduction": {},
+  "yourLinuxAssistant": "Your. Linux. Assistant.",
+  "@yourLinuxAssistant": {
     "type": "text"
   },
-  "@close": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@sendingFeedbackFailed": {
-    "placeholders": {},
-    "description": "",
-    "type": "text"
-  },
-  "@sendingFeedback": {
-    "placeholders": {},
-    "description": "",
+  "zoomDescription": "Proprietary conference software.",
+  "@zoomDescription": {
     "type": "text"
   }
 }
